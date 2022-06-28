@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.para{
+  display: flex;
+  justify-content: center;
+}
+
+.fonte {
+  color: rgb(244, 246, 248);
+}
+.td:hover {
+  transition: all 0.6s;
+  cursor: pointer;
+  border: 10px solid transparent;
+  border: 8px solid #f7fcfa;
+  border-radius: 50%;
+}
+
+.butao:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border: 5px solid transparent;
+  border: 5px solid #09ecb4;
+}
+
+.iconic:hover {
+  transform: translateX(6px);
+  border: 0px solid #f3f8f7;
+}
+
+.iconic2:hover {
+  transform: translateX(-4px);
+  border: 0px solid #f3f8f7;
+}
+.letra{
+  color: rgb(255, 255, 255);
+  text-decoration: underline red; 
+  font-size: 18px;
+  font-family: Arial;
+}
+
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/vetores-gratis/padrao-de-hexagono-geometrico-preto-sobre-fundo-vermelho-design-futurista-para-papeis-de-parede_518299-1397.jpg");
+  background-repeat: no-repeat;
+  background-position: center ;
+}
+.iconitela{
+  font-size: 30px;
+  justify-content: center;
+  padding-left: 5px;
+}
+.bots{
+  display: flex;
+  justify-content: center;
+}
+.iconess{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 115px;
+  padding-right: 115px;
+  word-spacing: 5px;
+}
+.lets{
+  padding-left: 3px;
+}
+
+
+
+
+
+
