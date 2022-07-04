@@ -13,8 +13,11 @@ import Servico from "./pages/servico/Servico";
 import TreinamentoLista from "./pages/treinamento/TreinamentoLista";
 import Treinamento from "./pages/treinamento/Treinamento";
 import ListaFrota from "./pages/ListaFrota";
-import ComandantesLista from "./pages/comandates/ComandantesLista";
-import Comandantes from "./pages/comandates/Comandantes";
+import ComandantesLista from "./pages/comandantes/ComandantesLista";
+import Comandantes from "./pages/comandantes/Comandantes";
+import ListaArmamentos from "./pages/armamento/ListaArmamentos";
+import Armamentos from "./pages/armamento/Armamentos";
+import SolicitarServico from "./pages/SolicitarServico";
 
 
 function App() {
@@ -25,6 +28,7 @@ function App() {
         <Container>
           <Routes>
             <Route path="/" element={<ListaFrota />} />
+            <Route path="/solicita" element={<SolicitarServico />} />
 
             <Route path="/construcao" element={<ConstrucaoLista />} />
             <Route path="/construcao/:id" element={<Construcao />} />
@@ -49,6 +53,10 @@ function App() {
             <Route path="/comandantes" element={<ComandantesLista />} />
             <Route path="/comandantes/:id" element={<Comandantes />} />
             <Route path="/comandantes/create" element={<Comandantes />} />
+
+            <Route path="/armamentos" element={<ListaArmamentos />} />
+            <Route path="/armamentos/:id" element={<Armamentos />} />
+            <Route path="/armamentos/create" element={<Armamentos />} />
 
           </Routes>
         </Container>

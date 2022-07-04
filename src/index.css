@@ -46,7 +46,6 @@ code {
 }
 .letra{
   color: rgb(255, 255, 255);
-  text-decoration: underline red; 
   font-size: 18px;
   font-family: Arial;
 }
@@ -79,6 +78,18 @@ code {
   padding-left: 3px;
 }
 
+.images{
+  display: flex;
+  justify-content: center;
+  color: rgb(252, 252, 252);
+  text-align: center;
+}
+.corcards{
+  background-color: #21a743;
+}
+.iconesx{
+  font-size: 30px;
+}
 
 
 
